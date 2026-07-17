@@ -61,10 +61,19 @@ GROQ_API_KEY=your_groq_api_key_here
    ```bash
    python src/faiss_store.py
    ```
-6. Start the chatbot:
+6. Start the console chatbot:
    ```bash
    python src/wikipedia_chatbot.py
    ```
+7. Start the Streamlit dashboard:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Deployment
+- Install dependencies: `pip install -r requirements.txt`
+- Add your `GROQ_API_KEY` to `.env`
+- Deploy on Streamlit Cloud by pointing to the repo root, or deploy on Heroku using the included `Procfile`
 
 ## Notes
 - The chatbot expects the FAISS index and chunk file to exist before startup.

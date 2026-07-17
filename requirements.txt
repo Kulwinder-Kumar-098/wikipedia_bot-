@@ -13,3 +13,5 @@ langchain-chroma
 python-dotenv
 langchain-huggingface
 groq
+streamlit
+qdrant-client

@@ -6,3 +6,6 @@ __pycache__/
 *.npy
 venv/
 .venv/
+.agents/
+.claude/
+.pytest_cache/
